@@ -105,6 +105,15 @@
     .btnNog{
         display: none!important;
     }
+    #disfarceNog {
+        margin-left: -217px;
+    }
+    #topeteNog {
+        margin-left: -225px;
+    }
+    #desenho2Nog {
+        margin-left: -282px;
+    }
 }
 
 @media only screen and (min-width: 573px) {
