@@ -5,13 +5,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/cssNogueira.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
-
 				<!-- Intro -->
 					<div id="intro">
 						<img src="images/logo.png" width="400" height="300" alt="" srcset=""><br>
@@ -19,17 +20,17 @@
 						<p>Onde excelência e estilo se encontram para todas as gerações,
 							<br>prezando pela dedicação e profissionalismo.</p>
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#quemSomos" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
-
 				<!-- Header -->
-					<header id="header">
-						<a href="https://api.whatsapp.com/send?phone=5532999348805" class="logo">Agendar corte</a>
-					</header>
+				<header id="header">
+					<a href="https://api.whatsapp.com/send?phone=5532999348805" class="logo">Agendar corte</a>
+				</header>
+				
 
 				<!-- Nav -->
-					<nav id="nav">
+					<nav id="nav" style="display: none;">
 						<ul class="links">
 							<li class="active"><a href="index.html">Sobre nosso trabalho:</a></li>
 						</ul>
@@ -40,11 +41,33 @@
 						</ul>
 					</nav>
 
+					<!-- Quem somos -->
+					<div id="quemSomos" class="col-12 pb-5 d-flex justify-content-center logo">
+						<img src="./images/quemSomos.png" class="quemSomosNog">
+					</div>
+					<!-- Quem somos -->
+
+					<div class="d-flex justify-content-center btnNog">
+						<ul class="actions btnNog">
+							<li><a href="#missaoVisao" class="button icon solid solo fa-arrow-down scrolly botaoNogFooter">Continue</a></li>
+						</ul>
+					</div>
+
 				<!-- Main -->
-					<div id="main">
+					<div id="main" style="background-color: transparent;">
+
+						<div id="missaoVisao" class="col-12 p-0 pt-5 pb-5 d-flex justify-content-center logo">
+							<img src="./images/missao_visao.png" class="missaoVisaoNog">
+						</div>
+
+						<div class="d-flex justify-content-center btnNog">
+							<ul class="actions btnNog">
+								<li><a href="#fotosDeClientes" class="button icon solid solo fa-arrow-down scrolly botaoNogFooter">Continue</a></li>
+							</ul>
+						</div>
 
 						<!-- Featured Post -->
-							<article class="post featured">
+							<!-- <article class="post featured">
 								<header class="major">
 									<span class="date">Desde 2019</span>
 									<h2><a href="#">Biografia:</a></h2>
@@ -57,10 +80,94 @@
 								<ul class="actions special">
 									<li><a class="button large" href="https://api.whatsapp.com/send?phone=5532999348805" target="_blank" class="logo">Agendar corte</a></li>
 								</ul>
-							</article>
+							</article> -->
 
+							<div id="fotosDeClientes">
+								<div class="divPc">
+									<div class="row col-12 d-flex justify-content-center">
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic02.jpg" id="barbudoNog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic03.jpg" id="pretinNog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic04.jpg" id="coroaNog"/>
+											</a>
+										</div>
+										
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic01.jpg" id="lojaNog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic06.jpg" id="desenhoNog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic07.jpg" id="militarNog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic09.jpg" id="barbudo2Nog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pc10.jpg" id="disfarceNog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pc11.jpg" id="topeteNog"/>
+											</a>
+										</div>
+										
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pc12.jpg" id="desenho2Nog"/>
+											</a>
+										</div>
+									</div>	
+								</div>
+								
+								<div class="divMob">
+									<div class="row col-12 d-flex justify-content-center">
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic1.jpg" id="barbudo2Nog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pic09.jpg" id="disfarceNog"/>
+											</a>
+										</div>
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pc11.jpg" id="topeteNog"/>
+											</a>
+										</div>
+										
+										<div class="col-sm-2 col-xs-12 m-2 p-0 divImgNog m-2">
+											<a href="#" class="m-0 image fit imgsNogueira">
+												<img src="images/pc14.jpg" id="desenho2Nog"/>
+											</a>
+										</div>
+									</div>	
+								</div>
+							</div>
 						<!-- Posts -->
-							<section class="posts">
+							<section class="posts" style="display: none;">
 								<article>
 									<header>
 										<h2>Missão:</h2>
@@ -125,12 +232,17 @@
 									</p>
 								</article>
 							</section>
-
+							
+						<div class="d-flex justify-content-center btnNog">
+							<ul class="actions btnNog">
+								<li><a href="#rodape" class="button icon solid solo fa-arrow-down scrolly botaoNogFooter">Continue</a></li>
+							</ul>
+						</div>
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
+					<footer id="rodape">
+						<section class="split contact" style="display: none;">
 							<section>
 								<h4>Telefone / Whatsapp</h4>
 								<p><a href="https://api.whatsapp.com/send?phone=5532999348805" target="_blank">(32)9 9934-8805</a></p>
@@ -162,10 +274,14 @@
 								</ul>
 							</section>
 						</section>
+
+						<div class="col-12 d-flex justify-content-center logo">
+							<img src="./images/onde_estamos.png" class="imgRodapeNog">
+						</div>
 					</footer>
 
 				<!-- Copyright -->
-					<div id="copyright">
+					<div id="copyright" class="copyrightNog">
 						<ul><li>&copy; Desenvolvimento</li><li> <a href="https://www.linkedin.com/in/ramonxavier/">R.Xavier</a></li></ul>
 					</div>
 
@@ -179,6 +295,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	</body>
 </html>

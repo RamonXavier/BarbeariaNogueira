@@ -9,8 +9,8 @@
 /* Wrapper */
 
 	#wrapper {
-		background-color: #212931;
-		background-image: url("../../images/overlay.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+		/* background-image: url("../../images/overlay.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg"); */
+		background-color: black;
 		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;

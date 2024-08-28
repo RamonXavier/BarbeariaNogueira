@@ -1,0 +1,117 @@
+.imgsNogueira {
+    max-width: 400px;
+    max-height: 400px;
+
+    width: 400px;
+    height: 400px;
+}
+
+.image.fit img {
+    height: 100%;
+    width: 207%;
+}
+
+#pretinNog {
+    margin-left: -96px;
+}
+
+#barbudoNog{
+    margin-left: -72px;
+}
+
+#barbudo2Nog {
+    margin-left: -148px;
+}
+
+#disfarceNog{
+    margin-left: -149px;
+}
+
+#topeteNog {
+    margin-left: -147px;
+}
+
+#desenho2Nog {
+    margin-left: -224px;
+}
+
+#coroaNog {
+    width: 113%;
+    height: 100%;
+    margin-left: -17px;
+}
+
+#lojaNog {
+    width: 123%;
+}
+
+#desenhoNog {
+    margin-left: -95px;
+}
+
+#militarNog {
+    margin-left: -87px;
+}
+
+.divImgNog {
+    border: solid rgb(255 201 52) 6px;
+}
+
+.botaoNogFooter {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #ffffff;
+    color: #ffffff !important;
+}
+
+.imgRodapeNog {
+    width: 80%;
+}
+
+.missaoVisaoNog{
+    width: 100%;
+}
+
+.copyrightNog {
+    color: #ffffff!important;
+    position: relative!important;
+    color: rgba(255, 255, 255, 0.25)!important;
+    cursor: default!important;
+    font-family: "Source Sans Pro", Helvetica, sans-serif!important;
+    font-size: 0.8rem!important;
+    font-weight: 900!important;
+    letter-spacing: 0.075em!important;
+    line-height: 1.5!important;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    margin: 4rem 21rem 3rem auto!important;
+    width: calc(100% - 4rem)!important;
+    max-width: 52rem!important;
+    z-index: 2!important;
+}
+
+@media only screen and (max-width: 572px) {
+    .divPc {
+      display: none!important;
+    }
+    .divMob {
+        display: block!important;
+    }
+    .quemSomosNog {
+        width: 97%;
+    }
+    .missaoVisaoNog{
+        width: 100%;
+    }
+    .btnNog{
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width: 573px) {
+    .divPc {
+      display: block!important;
+    }
+    .divMob {
+        display: none!important;
+    }
+}
